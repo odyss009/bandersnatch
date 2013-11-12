@@ -1,15 +1,105 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><title>スライドタイトル</title><meta name="description" content="スライドタイトル"><meta name="author" content="お名前"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><link rel="stylesheet" href="css/reveal.min.css"><link rel="stylesheet" href="css/theme/jp.css" id="theme"><link rel="stylesheet" href="lib/css/zenburn.css"><script>document.write( '<link rel="stylesheet" href="css/print/' +
+<!doctype html><html><head><meta charset="utf-8"><title>Modern Frontend Development Workflow</title><meta name="description" content="Modern Frontend Development Workflow"><meta name="author" content="joe"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><link rel="stylesheet" href="css/reveal.min.css"><link rel="stylesheet" href="css/theme/default.css" id="theme"><link rel="stylesheet" href="lib/css/zenburn.css"><script>document.write( '<link rel="stylesheet" href="css/print/' +
     ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) +
-    '.css" type="text/css" media="print">' );</script><!--[if lt IE 9]><script src="lib/js/html5shiv.js"></script><![endif]--></head><body><div class="reveal"><div class="slides"><section id="top"><h1 id="slideTitle">スライドタイトル</h1><p id="author">お名前</p><p id="date">2013/12/31</p></section><section id="大見出し" class="level1"><h1>大見出し</h1><p>大見出しごとにスライドが分割されます。</p></section><section id="大見出し-1" class="level1"><h1>大見出し</h1><section id="中見出し" class="level2"><h2>中見出し</h2><p>中見出しのセクションは、縦方向にスライドが分割されます。</p></section><section id="中見出し-1" class="level2"><h2>中見出し</h2><p>こんな具合です。</p></section><section id="中見出し-2" class="level2"><h2>中見出し</h2><section id="小見出し" class="level3"><h3>小見出し</h3><p>小見出しのブロックは分割されません。</p></section><section id="小見出し-1" class="level3"><h3>小見出し</h3><p>分割されませんね。</p></section></section></section><section id="大見出し-2" class="level1"><h1>大見出し</h1><p>リンクは次のように表示されます。</p><ul><li><a href="http://www.yahoo.co.jp/">Yahoo! JAPAN</a></li><li><a href="http://www.nike.com/jp/ja_jp/">Nike.com (JP)</a></li></ul></section><section id="大見出し-3" class="level1"><h1>大見出し</h1><section id="リストは中央寄せで表示されます" class="level2"><h2>リストは中央寄せで表示されます</h2><ul><li>天津飯</li><li>雲呑麺</li><li>青椒肉絲</li><li>回鍋肉</li></ul></section><section id="順序リストも同様です" class="level2"><h2>順序リストも同様です</h2><ol type="1"><li>スパゲッティを茹でる</li><li>唐辛子とニンニクを弱火で炒める</li><li>２にスパゲッティと茹で汁少々を加え、手早く混ぜ合わせる</li><li>窓から捨てる</li></ol></section></section><section id="大見出し-4" class="level1"><h1>大見出し</h1><p>ソースコードも表示できます。</p><pre><code>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;ja&quot;&gt;
+    '.css" type="text/css" media="print">' );</script><!--[if lt IE 9]><script src="lib/js/html5shiv.js"></script><![endif]--></head><body><div class="reveal"><div class="slides"><section id="top"><h1 id="slideTitle">Modern Frontend Development Workflow</h1><p id="author">joe</p><p id="date">2013/11/04</p></section><section id="html" class="level1"><h1>HTML</h1><section id="basic" class="level2"><h2>basic</h2><ul><li>contents</li><li>basic structure</li></ul></section><section id="section" class="level2"><h2></h2><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
 &lt;head&gt;
 &lt;meta charset=&quot;UTF-8&quot;&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
 &lt;/head&gt;
 &lt;body&gt;
-
+    &lt;h1&gt;Hello World&lt;/h1&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre></section><section id="大見出し-5" class="level1"><h1>大見出し</h1><p>文中の強調は二種類です。<em>強調</em>と<strong>強い強調</strong>です。強い強調はフォントサイズを少し大きくしています。</p></section><section id="大見出し-6" class="level1"><h1>大見出し</h1><p>ESC キーでスライド全体を俯瞰できます。</p></section><section id="おしまい" class="level1"><h1>おしまい</h1><section id="ご清聴ありがとうございました" class="level2"><h2>ご清聴ありがとうございました</h2></section></section></div></div><script src="lib/js/head.min.js"></script><script src="js/reveal.min.js"></script><script>// Full list of configuration options available here:
+&lt;/html&gt;</code></pre></section></section><section id="css" class="level1"><h1>CSS</h1><section id="position" class="level2"><h2>position</h2><ul><li>static</li><li>relative</li><li>absolute</li></ul></section><section id="display" class="level2"><h2>display</h2><ul><li>block div</li><li>inline span</li><li>float</li><li>none</li></ul></section><section id="visibility" class="level2"><h2>visibility</h2><ul><li>hidden</li></ul></section><section id="selector" class="level2"><h2>selector</h2><ul><li>ID</li><li>class</li><li>element</li><li>child</li><li>attr</li><li>child, descendant, sibling, pseudo</li><li><a href="https://developer.mozilla.org/en-US/learn/css">reference</a></li></ul></section><section id="layout" class="level2"><h2>layout</h2><ul><li>fixed</li><li>fluid</li></ul></section></section><section id="css3-and-more" class="level1"><h1>CSS3 and more</h1><ul><li>transition</li><li>transform</li><li>H/W acceleration</li><li><a href="http://famo.us/">sample</a></li></ul></section><section id="dom" class="level1"><h1>DOM</h1><section id="section-1" class="level2"><h2></h2><ul><li>messy</li></ul></section><section id="section-2" class="level2"><h2></h2><pre><code>var elem = document.createElemeent(&quot;div&quot;);
+docuemnt.childNodes.firstChild.appendChild(elem);</code></pre></section></section><section id="event-model" class="level1"><h1>Event Model</h1><ul><li>cross browsing</li><li>event bubbling/capturing</li><li>event delegation</li></ul></section><section id="jquery" class="level1"><h1>jQuery</h1><section id="selector-engine" class="level2"><h2>selector engine</h2><pre><code>$(&quot;#service&quot;).html(&quot;blabla&quot;);
+$(&quot;.service&quot;).css({
+    color : &quot;red&quot;
+});
+$(&quot;input[name=pass]&quot;).val(&quot;blabla&quot;);</code></pre></section><section id="chain" class="level2"><h2>chain</h2><pre><code>$(&quot;#service&quot;)
+.html(&quot;blabla&quot;)
+.css(&quot;color&quot;, &quot;red&quot;)</code></pre></section><section id="plugin" class="level2"><h2>plugin</h2><ul><li>jquery UI</li><li>community</li><li><a href="http://jqueryboilerplate.com/">jqueyr boilerplate</a></li></ul></section></section><section id="javascript" class="level1"><h1>javascript</h1><section id="feature" class="level2"><h2>feature</h2><ul><li>high order function</li><li>closure</li><li>dynamic</li><li>prototype</li><li>literal</li><li>single thread</li><li>call, apply</li><li>async</li></ul></section><section id="create-pattern" class="level2"><h2>create pattern</h2><pre><code>var obj = {};
+var arr = [];
+var Animal = function() {
+    this.name = &quot;meerkat&quot;;
+    this.legs = 4;
+};
+var someAnimal = new Animal();</code></pre></section><section id="create-pattern2" class="level2"><h2>create pattern2</h2><pre><code>var newObj = Object.create({ name : &#39;joe&#39;});</code></pre></section><section id="extend-pattern" class="level2"><h2>extend pattern</h2><pre><code>var child = $.extend(target, source1, source2);
+var newChild = $.extend(true, target, source1, source2);</code></pre></section><section id="call-and-apply" class="level2"><h2>call and apply</h2><pre><code>var Cat = function(name) {
+    this.name = name;
+};
+Cat.prototype.meow = function(food) {
+    alert(this.name + &quot; &quot; + food);
+}
+var cat = new Cat();
+
+var obj = { name : &quot;tiger&quot; };
+cat.meow.call(obj, &quot;food1&quot;);
+cat.meow.apply(obj, [&quot;food1&quot;]);</code></pre></section><section id="high-order-function1" class="level2"><h2>high order function1</h2><ul><li>curry - bind</li></ul></section><section id="bind" class="level2"><h2>bind</h2><pre><code>function callback(arg1, arg2) {
+    //blabla
+}
+
+function someFunc(callback) {
+    callback(&quot;arg2&quot;);
+}
+
+someFunc(callback.bind(&quot;arg1&quot;));</code></pre></section><section id="async1" class="level2"><h2>async1</h2><pre><code>setTimeout(function() {
+    alert(&#39;timeout&#39;);
+}, 3000);</code></pre></section><section id="async2" class="level2"><h2>async2</h2><pre><code>somefunc(function(cb1) {
+    cb1(function(cb2) {
+        cb2(function() {
+            //blabla...
+        });
+    });
+});</code></pre></section><section id="deferred-and-promise1" class="level2"><h2>deferred and promise1</h2><pre><code>$.ajax(&quot;someurl&quot;)
+  .done(function(data) {
+      alert(&quot;success&quot;);
+   });
+ .fail(function() {
+      alert(&quot;success&quot;);
+  });
+ .always(function() {
+      alert(&quot;always&quot;);
+  });
+
+$.ajax(&quot;anotherUrl&quot;)
+  .then(function () {
+      alert(&quot;success&quot;);
+  }, function() {
+      alert(&quot;error&quot;);
+  });</code></pre></section><section id="deferred-and-promise2" class="level2"><h2>deferred and promise2</h2><pre><code>var ajax1 = $.ajax(&quot;url1&quot;);
+var ajax2 = $.ajax(&quot;url2&quot;);
+
+$.when(ajax1, ajax2)
+ .done(function(data) {
+     alert(&quot;success&quot;);
+ });</code></pre></section><section id="deferred-and-promise3" class="level2"><h2>deferred and promise3</h2><pre><code>$.ajax(&quot;anotherUrl&quot;)
+  .then(function (data) {
+      return anotherDeferred(data);
+  })
+  .then(function (data) {
+      //alert(data);
+  })</code></pre></section><section id="deferred-and-promise4" class="level2"><h2>deferred and promise4</h2><pre><code>var ajax1 = $.ajax(&quot;url1&quot;);
+var ajax2 = $.ajax(&quot;url2&quot;);
+var aggre1 = $.when(ajax1, ajax2);
+var ajax3 = $.ajax(&quot;url3&quot;);
+var ajax4 = $.ajax(&quot;url4&quot;);
+var aggre2 = $.when(ajax3, ajax4);
+
+$.when(aggre1, aggre2)
+ .done(function(data) {});</code></pre></section><section id="deferred-and-promise4-1" class="level2"><h2>deferred and promise4</h2><pre><code>function elegantFunc() {
+    var dfd = $.Deferred();
+
+    setTimeout(function () {
+        if(status) {
+            dfd.resolve(); 
+        } else {
+            dfd.reject();
+        }
+    }, 3000);
+
+    return dfd;
+}
+
+elegantFunc().done(function() {});</code></pre></section><section id="cons" class="level2"><h2>cons</h2><ul><li>global</li><li>var</li><li>function scope</li><li>implicit type conversion(==, !=)</li></ul></section><section id="solution" class="level2"><h2>solution</h2><ul><li>strict mode</li><li>jshint</li><li>module pattern</li></ul></section><section id="best-friend" class="level2"><h2>Best Friend</h2><ul><li><a href="http://lodash.com/">lodash</a></li><li><a href="https://github.com/kriskowal/q">Q</a></li><li><a href="http://requirejs.org/docs/start.html">requrieJS</a></li><li>commonJS - <a href="http://browserify.org/">browserify</a></li></ul></section><section id="transpiler" class="level2"><h2>Transpiler</h2><ul><li><a href="http://coffeescript.org/">coffeescript</a></li><li><a href="http://www.typescriptlang.org/">TypeScript</a></li><li><a href="https://github.com/clojure/clojurescript">clojurescript</a></li><li><a href="https://code.google.com/p/traceur-compiler/">google traceur</a></li><li><a href="http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/">sourcemap</a></li></ul></section><section id="ecma6" class="level2"><h2>ECMA6</h2><ul><li>Iterator</li><li>Generator</li><li>let</li><li>module, class</li></ul></section><section id="html5" class="level2"><h2>HTML5</h2><ul><li>local storage</li><li>session storage</li><li>indexedDB</li><li>websocket</li><li>canvas</li><li>SVG</li><li>WEBGL</li><li>WebRTC</li></ul></section></section><section id="bootstrap" class="level1"><h1>bootstrap</h1><ul><li>clean markup</li><li>layout</li><li>css module</li><li>support responsive</li><li>jquery widget</li></ul></section><section id="build-package-management" class="level1"><h1>build &amp; package management</h1><ul><li><a href="http://gruntjs.com/">grunt</a></li><li><a href="http://yeoman.io/">yeoman</a></li><li><a href="http://bower.io/">bower</a></li></ul></section><section id="inspector" class="level1"><h1>Inspector</h1><ul><li><a href="https://developers.google.com/chrome-developer-tools/">Chomme DevTools</a></li><li>network monitoring</li><li>profiling</li><li>debugging</li><li>development tool</li><li>console</li></ul></section><section id="spa---single-page-application" class="level1"><h1>SPA - single page application</h1><ul><li>web application like gmail</li><li>manage state in the client side</li><li>dependency</li><li>routing</li><li>template engine</li><li>MVC, MVVM</li><li>mediator</li><li>application life cycle</li><li>SEO - <a href="http://phantomjs.org/">phantomjs</a></li></ul></section><section id="popular-framework" class="level1"><h1>Popular Framework</h1><ul><li><a href="http://backbonejs.org/">Backbone</a></li><li><a href="http://emberjs.com/">Ember</a></li><li><a href="http://angularjs.org/">Angular</a></li></ul></section><section id="angularjs" class="level1"><h1>AngularJS</h1><ul><li>mady by google</li><li>dependency injection</li><li>two way binding</li><li>MVW</li><li>declarative - web component</li><li>dirty checking</li><li>scope</li></ul></section><section id="end" class="level1"><h1>End</h1><p>next time</p></section></div></div><script src="lib/js/head.min.js"></script><script src="js/reveal.min.js"></script><script>// Full list of configuration options available here:
   // https://github.com/hakimel/reveal.js#configuration
   Reveal.initialize({
     controls: true,
@@ -18,7 +108,7 @@
     center: false,
 
   // available themes are in /css/theme
-      theme: Reveal.getQueryHash().theme || 'jp',
+      theme: Reveal.getQueryHash().theme || 'default',
   
   // default/cube/page/concave/zoom/linear/fade/none
       transition: Reveal.getQueryHash().transition || 'default',

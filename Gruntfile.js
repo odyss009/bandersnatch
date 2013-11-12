@@ -13,7 +13,7 @@ module.exports = function(grunt) {
         // 出力ファイル名
         html: 'index.html',
         // テーマ
-        theme: 'jp', // default, beige, moon, night, serif, simple, sky, jp
+        theme: 'default', // default, beige, moon, night, serif, simple, sky, jp
         // トランジション
         transition: 'default', // default, cube, page, concave, zoom, linear, fade, none
 

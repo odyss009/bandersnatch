@@ -1,41 +1,41 @@
-# 使い方
+# 사용법
 
-Node.js と Pandoc のインストールが必要です。それぞれのインストールについては、公式サイトを参照してください。
+Node.js와 Pandoc의 설치가 필요합니다. 각각의 설치 내용은 공식 웹 사이트를 참조하십시오.
 
 * [Node.js](http://nodejs.org/)
 * [Pandoc](http://johnmacfarlane.net/pandoc/)
 
-また、タスクの実行に Grunt を利用しているので、Grunt が入っていない場合はインストールしてください（バージョン４系）。
+또한 작업을 수행하는 Grunt를 이용하고 있기 때문에, Grunt이 들어 있지 않은 경우 설치하십시오
 
     npm install -g grunt-cli
 
-## プロジェクトを作成する
+## 프로젝트 만들기
 
-任意のディレクトリに bandersnatch を適当なディレクトリ名で clone します。
+임의의 디렉토리에 bandersnatch을 적당한 디렉토리 이름 clone합니다.
 
     git clone https://github.com/sansyo/bandersnatch.git sample
 
-ファイル一式が取得できたら、Grunt タスクを実行する node_modules をインストールします。
+파일 세트를 취득 할 수 있으면, Grunt 작업을 수행하는 node_modules를 설치합니다.
 
     cd sample && npm install
 
-これで準備完了です。
+이것으로 준비 완료입니다.
 
-## 原稿の作成
+## 원고 작성
 
-`source` ディレクトリの slides.md が原稿ファイルになります。
+source 디렉토리 slides.md이 원본 파일입니다.
 
-## Pandoc による変換
+## Pandoc 의한 변환
 
-Pandoc による変換は Grunt を通じて実行します。
+Pandoc의 변환은 Grunt 통해 실행합니다.
 
     cd sample
     grunt
 
-※sample ディレクトリにいる場合は、cd の実行は不要です。
+※ sample 디렉토리에있는 경우 cd 실행하지 않아도됩니다.
 
-## 公開用ファイルの生成
+## 공개용 파일 생성
 
-不要ファイルを除いた公開用ディレクトリ（デフォルト名：`presentation`）を作成し、同時にアーカイブも作成します。
+불필요한 파일을 제외한 공개 디렉토리 (기본 이름 : presentation )을 만들고 동시에 아카이브를 만듭니다.
 
     grunt dist
